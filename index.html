@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./asset/favicon.ico" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Magic ball workshop</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <figure id="setting" class="menu--button">
+        <img class="menu--button--asset" src="./asset/menu.png" alt="menu" />
+      </figure>
+    </nav>
+    <main id="app">
+      <div id="ball" class="floating"></div>
+    </main>
+    <footer class="control">
+      <article class="control--monitor expandIn">
+        <p class="control--monitor--data fadeIn">
+          Time to speak!
+        </p>
+      </article>
+      <figure id="record" class="control--button">
+        <img
+          class="control--button--asset"
+          src="./asset/microphone.png"
+          alt="microphone"
+        />
+      </figure>
+    </footer>
+    <noscript class="noJs"> Please enable JS to use this app </noscript>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
