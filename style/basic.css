@@ -1,0 +1,42 @@
+:root {
+  --main: #0f0f0f;
+  --extra: #1f1f1f;
+  --focus: #3f3f3f;
+
+  --letter: snow;
+
+  --ball: linear-gradient(#f00202 0%, #bd0404 10%, #7d0404 50%, #4a0202 100%);
+  --ball-wrapper: linear-gradient(#f06060 0%, #a30505 60%, #4d0202 100%);
+  --ball-shadow: rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="light"] {
+  --main: snow;
+  --extra: #cccccc;
+  --focus: #afafaf;
+
+  --letter: black;
+
+  --ball: linear-gradient(#1202f0 0%, #0420bd 10%, #04107d 50%, #02074a 100%);
+  --ball-wrapper: linear-gradient(#6076f0 0%, #0515a3 60%, #02074d 100%);
+  --ball-shadow: rgba(0, 0, 0, 0.6);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow-anchor: none;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: var(--main);
+  color: var(--letter);
+}
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: var(--main);
+    color: var(--letter);
+  }
+}
