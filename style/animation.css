@@ -1,0 +1,50 @@
+@keyframes expandIn {
+  0% {
+    width: 0%;
+  }
+  10% {
+    width: 10%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.expandIn {
+  animation-name: expandIn;
+  animation-duration: 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    width: 10%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.expandIn {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+@keyframes floating {
+  0% {
+    padding-bottom: 0px;
+  }
+  50% {
+    padding-bottom: 2px;
+  }
+  100% {
+    padding-bottom: 0px;
+  }
+}
+
+.floating {
+  animation: floating 1s infinite;
+  animation-timing-function: linear;
+}
