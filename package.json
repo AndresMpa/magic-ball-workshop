@@ -1,0 +1,14 @@
+{
+  "name": "magic-ball-workshop",
+  "version": "1.0.0",
+  "description": "A simple workshop about web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx live-server"
+  },
+  "author": "AndresMpa",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
