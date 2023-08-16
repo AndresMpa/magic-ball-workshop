@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+}
+.menu--button {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+  margin: 15px;
+
+  border-radius: 5px;
+  border: 1px solid var(--focus);
+  background-color: var(--extra);
+}
+.menu--button--asset {
+  width: 30px;
+}
+
+[data-theme="light"] {
+  .menu--button--asset {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+}
