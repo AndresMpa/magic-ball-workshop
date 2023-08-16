@@ -1,0 +1,42 @@
+#app {
+  display: flex;
+}
+
+#ball {
+  width: 25vw;
+  height: 50vh;
+
+  margin: auto;
+
+  border-radius: 50%;
+  background: var(--ball);
+}
+
+#ball::before {
+  content: "";
+
+  width: 360px;
+  height: 360px;
+
+  border-radius: 50%;
+  background: var(--ball-wrapper);
+
+  filter: blur(18px);
+}
+
+#ball::after {
+  content: "";
+
+  z-index: -1;
+
+  position: absolute;
+  top: 65vh;
+
+  width: 25%;
+  height: 60px;
+
+  border-radius: 50%;
+  background: var(--ball-shadow);
+
+  filter: blur(10px);
+}
