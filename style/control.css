@@ -1,0 +1,53 @@
+.control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.control--monitor {
+  display: flex;
+
+  margin: auto 15px;
+
+  height: 50px;
+  width: 90%;
+
+  border-radius: 5px;
+  background: var(--extra);
+}
+.control--monitor--data {
+  display: flex;
+  align-self: center;
+
+  margin: 8px;
+
+  color: var(--letter);
+}
+
+.control--button {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+  margin: 15px;
+
+  border-radius: 50%;
+  border: 1px solid var(--focus);
+  background-color: var(--extra);
+}
+
+.control--button--asset {
+  width: 50px;
+}
+
+[data-theme="light"] {
+  .control--button--asset {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+}
