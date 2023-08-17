@@ -1,0 +1,35 @@
+.error {
+  position: relative;
+}
+.error--wrapper {
+  display: none;
+  align-self: center;
+  flex-direction: column;
+
+  position: absolute;
+  left: 25%;
+  top: 5vw;
+
+  min-width: 50vw;
+
+  border-radius: 5px;
+  border: 1px solid var(--focus);
+  background-color: var(--extra);
+
+  z-index: 100;
+}
+.error--message--icon {
+  width: 50px;
+  margin: 15px auto;
+}
+.error--message--label {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto 15px 15px;
+  padding: 15px;
+  gap: 25px;
+
+  text-align: center;
+  color: var(--letter);
+}
