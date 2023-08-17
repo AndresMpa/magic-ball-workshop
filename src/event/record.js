@@ -2,9 +2,9 @@ import { loadError } from "../error/browser.js";
 
 import { getRecordMethod, languageDetector } from "../util/navigator.js";
 
+import { managerConstructor, extendActions } from "../proxy/manager.js";
 import spanishActions from "../proxy/action/spanish.js";
 import englishActions from "../proxy/action/english.js";
-import managerConstructor from "../proxy/manager.js";
 
 import AudioToText from "../Speech/AudioToText.js";
 import FileToText from "../Speech/WebApi/plugin/FileToText.js";
@@ -19,14 +19,16 @@ let actions;
 
 if (languageDetector("es")) {
   actions = spanishActions(target, textBoxOutput);
+  actions = extendActions("ayuda", actions, textBoxOutput, "Mis comandos son ");
 } else {
   actions = englishActions(target, textBoxOutput);
+  actions = extendActions("help", actions, textBoxOutput, "My commands are ");
 }
 
 const proxy = managerConstructor(actions);
 
 if (recordMethod === "Not supported") {
-  loadError()
+  loadError();
 } else {
   browserInstance = new AudioToText({
     writerPlugin: FileToText,
