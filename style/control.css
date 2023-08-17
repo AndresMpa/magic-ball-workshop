@@ -20,13 +20,24 @@
   border-radius: 5px;
   background: var(--extra);
 }
+
 .control--monitor--data {
   display: flex;
   align-self: center;
 
   margin: 8px;
+  max-height: 45px;
+
+  overflow: auto;
 
   color: var(--letter);
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.control--monitor--data::-webkit-scrollbar {
+  display: none;
 }
 
 .control--button {
