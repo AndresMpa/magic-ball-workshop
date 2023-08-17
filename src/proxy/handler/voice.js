@@ -1,3 +1,5 @@
+const LEVENSHTEIN_DISTANCE = 3
+
 const voiceHandler = {
   set(obj, prop, value) {
     const stringValue = value.split(" ");
