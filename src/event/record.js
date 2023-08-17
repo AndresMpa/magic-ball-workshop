@@ -36,7 +36,7 @@ const record = () => browserInstance.record();
 
 const transcript = (output) => {
   let transcription = browserInstance.transcription;
-  output.value += transcription;
+  output.innerText = transcription;
   proxy.value = transcription;
 };
 

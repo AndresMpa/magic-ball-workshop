@@ -1,7 +1,7 @@
 function FileToText() {}
 
-FileToText.prototype.write = function (writter) {
-  writter.WebWritter();
+FileToText.prototype.write = function (writer) {
+  writer.WebWriter();
 };
 
 export default FileToText;

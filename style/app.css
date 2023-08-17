@@ -1,5 +1,7 @@
 #app {
   display: flex;
+
+  position: relative;
 }
 
 #ball {
@@ -30,7 +32,7 @@
   z-index: -1;
 
   position: absolute;
-  top: 65vh;
+  top: 60vh;
 
   width: 25%;
   height: 60px;
@@ -39,4 +41,11 @@
   background: var(--ball-shadow);
 
   filter: blur(10px);
+}
+
+@media (max-width: 360px) {
+  #ball {
+    width: 30vw;
+    height: 15vh;
+  }
 }

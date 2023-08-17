@@ -6,7 +6,7 @@ class AudioToText {
     this.writerPlugin = config.writerPlugin;
     this.keywords = config.keywords || [];
     this.recordedFile = Object;
-    this.currentText = "";
+    this.currentText = "Nothing yet";
 
     this.__init__();
   }
@@ -29,7 +29,7 @@ class AudioToText {
     this.recordedFile.resultHandler();
   }
 
-  WebWritter() {
+  WebWriter() {
     this.recordedFile.endHandler();
     this.recordedFile.errorHandler();
     this.currentText = this.recordedFile.getResult;
