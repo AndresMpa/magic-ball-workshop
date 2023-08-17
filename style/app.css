@@ -5,8 +5,8 @@
 }
 
 #ball {
-  width: 25vw;
-  height: 50vh;
+  width: 350px;
+  height: 350px;
 
   margin: auto;
 
@@ -32,7 +32,7 @@
   position: absolute;
   top: 60vh;
 
-  width: 25vw;
+  width: 350px;
   height: 60px;
 
   border-radius: 50%;
@@ -43,9 +43,14 @@
   z-index: -1;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   #ball {
-    width: 30vw;
-    height: 15vh;
+    width: 250px;
+    height: 250px;
+  }
+
+  .ball::after {
+    width: 250px;
+    height: 60px;
   }
 }
