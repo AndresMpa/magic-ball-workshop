@@ -1,6 +1,16 @@
 import { proxyGenerator } from "./generator.js";
 import voiceHandler from "./handler/voice.js";
 
+const extendActions = (commandName, actions, outputHelper, message) => {
+  const keys = () => {
+    outputHelper.innerText =
+      `${message}` + `${Object.keys(actions).toString().replaceAll(",", ", ")}`;
+  };
+  actions[commandName] = keys;
+
+  return actions;
+};
+
 const managerConstructor = (actions) => {
   const proxy = proxyGenerator(actions, voiceHandler);
 
@@ -11,4 +21,4 @@ const managerConstructor = (actions) => {
   return proxyManager;
 };
 
-export default managerConstructor;
+export { managerConstructor, extendActions };
