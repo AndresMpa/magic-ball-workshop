@@ -1,3 +1,5 @@
+import { loadError } from "../error/browser.js";
+
 import { getRecordMethod, languageDetector } from "../util/navigator.js";
 
 import spanishActions from "../proxy/action/spanish.js";
@@ -24,7 +26,7 @@ if (languageDetector("es")) {
 const proxy = managerConstructor(actions);
 
 if (recordMethod === "Not supported") {
-  console.log("It seems we can not communicate");
+  loadError()
 } else {
   browserInstance = new AudioToText({
     writerPlugin: FileToText,
