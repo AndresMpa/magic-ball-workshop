@@ -26,13 +26,13 @@
   filter: blur(18px);
 }
 
-#ball::after {
+.ball::after {
   content: "";
 
   position: absolute;
   top: 60vh;
 
-  width: 25%;
+  width: 25vw;
   height: 60px;
 
   border-radius: 50%;
