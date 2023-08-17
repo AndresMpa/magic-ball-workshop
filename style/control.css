@@ -36,6 +36,8 @@
   padding: 5px;
   margin: 15px;
 
+  cursor: pointer;
+
   border-radius: 50%;
   border: 1px solid var(--focus);
   background-color: var(--extra);

@@ -29,8 +29,6 @@
 #ball::after {
   content: "";
 
-  z-index: -1;
-
   position: absolute;
   top: 60vh;
 
@@ -41,6 +39,8 @@
   background: var(--ball-shadow);
 
   filter: blur(10px);
+
+  z-index: -1;
 }
 
 @media (max-width: 360px) {
