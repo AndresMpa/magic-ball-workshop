@@ -26,3 +26,7 @@ advance features to craft a small project on steroids
 - [FOREST Software Community](https://github.com/F-O-R-E-S-T) for providing support
 
 - [icon8](https://icons8.com/) for providing icons
+
+<p align="center">
+  <code>Think out of code</code>
+</p>
