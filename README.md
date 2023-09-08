@@ -5,6 +5,8 @@ a bit more about frontend, the aim of this workshop is to perform
 some JS functionalities every frontend developer should know, some
 advance features to craft a small project on steroids
 
+> Note: This implementation only works under Chrome
+
 ## What are you learning?
 
 - Efficient native dark and white modes (How to)
