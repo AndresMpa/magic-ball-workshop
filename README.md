@@ -23,8 +23,6 @@ advance features to craft a small project on steroids
 
 ## Special thanks to
 
-- [Open Smart Festival](https://www.ambiot.com.co/eventos/) for the invitations
-
 - [FOREST Software Community](https://github.com/F-O-R-E-S-T) for providing support
 
 - [icon8](https://icons8.com/) for providing icons
