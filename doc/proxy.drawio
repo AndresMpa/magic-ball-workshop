@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2023-09-27T16:47:28.398Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5lvF5ap5-sSSxJEzYSIm" version="21.7.5" type="device">
+  <diagram name="Página-1" id="XhKuLiznB6YT2Df23rm5">
+    <mxGraphModel dx="860" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKOCP7lGImZ7kKvi-71-1" target="nBKOCP7lGImZ7kKvi-71-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-1" value="Audio" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKOCP7lGImZ7kKvi-71-3" target="nBKOCP7lGImZ7kKvi-71-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="200" />
+              <mxPoint x="520" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-3" value="Web API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBKOCP7lGImZ7kKvi-71-5" target="nBKOCP7lGImZ7kKvi-71-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-5" value="Actions" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="324" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nBKOCP7lGImZ7kKvi-71-7" target="nBKOCP7lGImZ7kKvi-71-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-7" value="Proxy" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-10" value="Command to execute" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKOCP7lGImZ7kKvi-71-12" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
